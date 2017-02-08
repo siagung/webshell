@@ -201,10 +201,7 @@ option:hover {
 </style>
 </head>
 <?php
-###############################################################################
-// Thanks buat Orang-orang yg membantu dalam proses pembuatan shell ini.
-// Shell ini tidak sepenuhnya 100% Coding manual, ada beberapa function dan tools kita ambil dari shell yang sudah ada.
-###############################################################################
+
 function w($dir,$perm) {
 	if(!is_writable($dir)) {
 		return "<font color=red>".$perm."</font>";
